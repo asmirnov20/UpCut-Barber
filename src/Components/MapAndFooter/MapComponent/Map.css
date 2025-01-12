@@ -14,3 +14,9 @@
 .mapboxgl-ctrl-logo {
 	display: none !important;
 }
+
+@media (max-width: 700px) {
+	.map-container {
+		margin-bottom: 20px;
+	}
+}

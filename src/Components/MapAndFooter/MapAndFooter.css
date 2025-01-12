@@ -5,7 +5,6 @@
 	align-items: center;
 	width: 100%;
 	background-color: #fff;
-
 }
 
 .map-and-footer_socials {
@@ -32,7 +31,6 @@
 	position: relative;
 }
 
-
 .map-and-footer--logo {
 	width: 127px;
 	margin: 0 10px 0 0;
@@ -44,3 +42,4 @@
 	color: #717171;
 	margin: 0 0 34px;
 }
+

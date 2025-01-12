@@ -19,16 +19,6 @@ const MapAndFooter = ({ currentLanguage, isBigScreen }) => {
 	return (
 		<div className='map-and-footer_container'>
 			<Map />
-			{/* <div className='map-and-footer_socials'>
-				<Socials isBigScreen={isBigScreen} />
-			</div>
-			<div className='map-and-footer_navLinks-container'>
-				<NavLinks
-					languages={languages}
-					currentLanguage={currentLanguage}
-					className='nav-links--nomargin'
-				/>
-			</div> */}
 			<Underline />
 			<div className='map-and-footer--logo-container'>
 				<img src={logo} alt='logo-img' className='map-and-footer--logo' />
