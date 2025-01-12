@@ -13,6 +13,7 @@ const HeroPreview = ({ currentLanguage, isBigScreen }) => {
 						src={logo}
 						className='hero-preview--desktop-logo'
 						alt='logo-desktop'
+						loading='lazy'
 					/>
 					<p className='hero-text'>{heroText[currentLanguage]}</p>
 				</>
@@ -22,6 +23,7 @@ const HeroPreview = ({ currentLanguage, isBigScreen }) => {
 						src={logo_mobile}
 						className='hero-preview--mobile-logo'
 						alt='logo-mobile'
+						loading='lazy'
 					/>
 					<p className='hero-text--mobile'>{heroText[currentLanguage]}</p>
 				</>
