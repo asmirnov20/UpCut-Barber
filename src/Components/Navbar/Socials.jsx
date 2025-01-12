@@ -12,7 +12,7 @@ const Socials = ({ isBigScreen, forceDesktopStyles }) => {
 	return (
 		<div className={isDesktopStyles ? 'social-item' : 'social-item--mobile'}>
 			<a
-				href='https://www.facebook.com/people/Vlados-Barbershop/61558335386973/'
+				href='https://www.facebook.com/profile.php?id=100010885875066'
 				target='_blank'
 				rel='noopener noreferrer'
 			>
@@ -25,7 +25,7 @@ const Socials = ({ isBigScreen, forceDesktopStyles }) => {
 				/>
 			</a>
 			<a
-				href='https://api.whatsapp.com/send?phone=774271121'
+				href='https://api.whatsapp.com/send?phone=+421949821157'
 				target='_blank'
 				rel='noopener noreferrer'
 			>
