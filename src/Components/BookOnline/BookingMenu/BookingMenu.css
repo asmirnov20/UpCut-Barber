@@ -51,7 +51,7 @@
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-	transition: transform 0.1s ease-in-out;
+	transition: transform 0.2s ease-in-out;
 }
 .booking-menu-close-button:hover {
 	transform: scale(1.05); /* Увеличиваем кнопку */
@@ -80,5 +80,8 @@
 @media (max-width: 1000px) {
 	.booking-menu-content {
 		width: 100%;
+	}
+	.booking-menu-close-button {
+		transition: transform 0.05s ease-in-out;
 	}
 }
