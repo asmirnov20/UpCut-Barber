@@ -1,0 +1,103 @@
+/* Кнопка */
+
+.book-online-button {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	width: 115px; /* Увеличено на 20% */
+	height: 115px; /* Увеличено на 20% */
+	box-sizing: border-box;
+	z-index: 10000;
+	transition: all 0.2s ease;
+}
+
+.booking-button_background {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 115px; /* Увеличено на 20% */
+	height: 115px; /* Увеличено на 20% */
+	border-radius: 50%;
+	background-color: #f35009;
+	opacity: 0.8;
+	box-sizing: border-box;
+}
+
+.booking-button_wave {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border: 2px solid #f35009;
+	width: 105%;
+	height: 105%;
+	opacity: 0.9;
+	box-sizing: border-box;
+	animation: wave-stroke 2s linear infinite;
+}
+
+.booking-button_text {
+	position: absolute;
+	top: 30px;
+	left: 11px;
+	right: 5px;
+	width: 90px;
+	height: 50px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 17px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для выделения */
+	line-height: 25px;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: 1.5px;
+	font-family: 'Play', sans-serif;
+	box-sizing: border-box;
+}
+
+@keyframes wave-stroke {
+	0% {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 1;
+	}
+	50% {
+		transform: translate(-50%, -50%) scale(1.5);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(2);
+		opacity: 0;
+	}
+}
+
+.book-online-button:hover {
+	transform: scale(1.15);
+}
+
+@media (max-width: 700px) {
+	.book-online-button {
+		width: 85px;
+		height: 85px;
+		right: 20px;
+		bottom: 20px;
+	}
+	.booking-button_background {
+		width: 85px;
+		height: 85px;
+	}
+	.booking-button_text {
+		top: 15px;
+		left: 7px;
+		font-size: 12px;
+		width: 70px;
+		height: 30px;
+	}
+}
+@media (max-width: 500px) {
+	.book-online-button {
+		right: 10px;
+		bottom: 10px;
+	}
+}

@@ -1,0 +1,23 @@
+.map-and-footer--logo_arrow {
+	position: absolute;
+	left: 50px;
+	bottom: 70px;
+	transition: all 0.4s;
+}
+
+.map-and-footer--logo_arrow:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+	.map-and-footer--logo_arrow {
+		left: 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	.map-and-footer--logo_arrow {
+		display: none;
+	}
+}

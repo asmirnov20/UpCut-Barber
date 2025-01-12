@@ -1,0 +1,78 @@
+/* Затемнённый фон */
+.booking-menu-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.4s ease-in-out;
+}
+
+.booking-menu-wrapper.open {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+/* Контейнер меню */
+.booking-menu-content {
+	position: fixed;
+	top: 0;
+	right: 0; /* Меню позиционируется справа */
+	width: 30%; /* Меню занимает треть ширины экрана */
+	height: 100%;
+	background-color: white;
+	box-shadow: -4px 0 20px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	z-index: 1001;
+	transform: translateX(100%); /* Меню скрыто за правой границей */
+	transition: transform 0.2s ease-in-out; /* Плавная анимация */
+}
+
+.booking-menu-wrapper.open .booking-menu-content {
+	transform: translateX(0); /* Меню выезжает вправо */
+}
+
+/* Кнопка закрытия */
+.booking-menu-close-button {
+	position: absolute;
+	top: 5px;
+	right: 475px; /* Размещаем в затемнённой области */
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+	transition: transform 0.1s ease-in-out;
+}
+.booking-menu-close-button:hover {
+	transform: scale(1.05); /* Увеличиваем кнопку */
+}
+/* Иконка внутри кнопки */
+.booking-menu-close-button .close-icon {
+	width: 18px;
+	height: 18px;
+	transition: transform 0.1s ease-in-out;
+}
+
+/* При наведении (иконка остается чёткой) */
+.booking-menu-close-button:hover .close-icon {
+	transform: scale(1.05); /* Анимация увеличения для иконки */
+}
+
+/* Стили для iframe */
+.booking-menu-iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+	position: relative; /* Обеспечивает, что iframe находится ниже кнопки */
+	z-index: 1; /* iframe не перекрывает кнопку */
+}

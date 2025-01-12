@@ -1,0 +1,122 @@
+.btn--common,
+.btn--services-prices,
+.btn--barber,
+.btn--follow {
+	transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.btn--common:hover,
+.btn--services-prices:hover,
+.btn--barber:hover,
+.btn--follow:hover {
+	transform: scale(1.1); /* Увеличиваем размер кнопки на 10% */
+}
+
+.btn--common {
+	background: transparent;
+	background-color: transparent;
+	padding: 0 6px 0 18px !important;
+	border: 1px solid #7b7b7b;
+	border-radius: 31px;
+	color: #000;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 29px 0 42px;
+	height: 49px;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.btn--common p {
+	font-size: 1.05em;
+	font-weight: 500;
+	line-height: 16.9px;
+}
+
+.btn--common:hover {
+	color: #fff;
+	background-color: #ed2626;
+	transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+	.btn--common {
+		border-color: #fff;
+		color: #fff;
+	}
+}
+
+/* Services and Prices  */
+
+.btn--services-prices {
+	background-color: #ed2626;
+	border: 1px solid #ed2626;
+	border-radius: 31px;
+	color: #fff;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+	height: 49px;
+	min-width: 150px;
+	padding: 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	margin-bottom: 70px;
+}
+
+.btn--services-prices p {
+	font-size: 18px;
+	line-height: normal;
+}
+
+.btn--services-prices:hover {
+	/* color: #fff;
+	background-color: #000;
+	border: 1px solid #000; */
+	transform: scale(1.1);
+}
+
+/* Team */
+
+.btn--barber {
+	background-color: #fff;
+	border: 1px solid #7b7b7b;
+	border-radius: 31px;
+	color: #000;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 49px;
+	min-width: 133px;
+	padding: 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	width: 100%;
+}
+
+.btn--barber:hover {
+	color: #fff;
+	background-color: #ed2626;
+}
+
+.btn--barber p {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: normal;
+}
+
+@media (max-width: 700px) {
+	.btn--services-prices {
+		min-width: 133px;
+		margin-bottom: 40px;
+	}
+}

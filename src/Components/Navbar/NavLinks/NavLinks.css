@@ -1,0 +1,42 @@
+.nav-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 504px;
+	margin: 0 0 0 145.5px;
+	font-size: var(--font-size) !important;
+	color: var(--link-color) !important;
+}
+.nav-item {
+	margin: 0 7.5px;
+	text-transform: uppercase;
+	transition: color 0.1s ease;
+}
+.nav-item:hover {
+	cursor: pointer;
+	background: darkorange;
+	-webkit-background-clip: text; /* Клиппинг фона только на текст */
+	color: transparent; /* Делаем сам текст прозрачным, чтобы видеть градиент */
+}
+
+/* Mobile */
+
+.nav-links--vertical {
+	flex-direction: column;
+	width: auto;
+	margin: 0;
+}
+
+.nav-item--vertical {
+	margin: 5px 0 15px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	justify-content: center;
+}
+
+.nav-links .nav-links--nomargin {
+	margin: 0;
+}

@@ -1,0 +1,22 @@
+.button-arrow {
+	transition: fill 0.1s; /* Smooth transition for the fill color */
+}
+
+.arrow-background {
+	transition: fill 0.1s; /* Smooth transition for the fill color */
+	fill: #ed2626; /* Default background color */
+}
+
+.arrow {
+	transition: fill 0.1s; /* Smooth transition for the arrow color */
+	fill: white; /* Default arrow color (as per your design) */
+}
+
+/* Change colors on hover of the parent */
+.btn--common:hover .arrow-background {
+	fill: white; /* Background remains white on hover */
+}
+
+.btn--common:hover .arrow {
+	fill: #ed2626; /* Change the arrow color on hover */
+}

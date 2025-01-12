@@ -1,0 +1,16 @@
+.map-container {
+	width: 1400px;
+	height: 502px;
+	margin-bottom: 40px;
+}
+
+.map-content {
+	position: relative;
+	width: 1400px;
+	height: 502px; /* Задай высоту карты */
+	overflow: hidden; /* Чтобы ничего не выходило за границы */
+}
+.mapboxgl-ctrl-attrib,
+.mapboxgl-ctrl-logo {
+	display: none !important;
+}

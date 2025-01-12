@@ -1,0 +1,85 @@
+.homeview-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 107px 0 0;
+	width: 100%;
+	position: relative;
+}
+
+.hero-image--mobile {
+	display: none;
+	position: fixed;
+	width: 100vw;
+	max-height: 100vh;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.hero-image-wrapper {
+	position: relative;
+	width: 100%; /* Занимаем всю ширину */
+	height: 100vh; /* Высота 100% высоты экрана */
+	overflow: hidden; /* Прячем части изображений за пределами контейнера */
+}
+
+.hero-image,
+.hero-image__hovered {
+	position: absolute; /* Обе картинки накладываются друг на друга */
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%; /* Высота 100% от родителя */
+	object-fit: cover; /* Изображение сохраняет пропорции и покрывает контейнер */
+	transition: opacity 0.7s ease; /* Плавный переход для замены картинок */
+	display: block;
+}
+
+.hero-image__hovered {
+	opacity: 0; /* Прячем цветное изображение по умолчанию */
+}
+
+.hero-image-wrapper:hover .hero-image__hovered {
+	opacity: 1; /* При наведении показываем цветное изображение */
+}
+
+.hero-image-wrapper:hover .hero-image {
+	opacity: 0; /* При наведении прячем черно-белое изображение */
+}
+
+@media (max-width: 1000px) {
+	.homeview-wrapper {
+		margin-top: 0;
+		min-height: 100vh;
+	}
+	.hero-image-wrapper {
+		display: none;
+	}
+
+	.hero-image--mobile {
+		display: block;
+		min-height: 100vh;
+	}
+	.hero-image--mobile:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	.hero-image--mobile img {
+		width: 100%;
+		min-height: 100vh;
+		object-fit: cover;
+	}
+
+	.hero-image,
+	.hero-image__hovered {
+		display: none; /* Прячем цветное изображение на маленьких экранах */
+	}
+}

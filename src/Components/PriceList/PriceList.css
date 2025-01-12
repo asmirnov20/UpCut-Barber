@@ -1,0 +1,113 @@
+.price-list_warp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 100%;
+	background-color: #fff;
+	border-top: solid 1px #d9d9d9;
+	border-bottom: solid 1px #d9d9d9;
+	box-sizing: border-box;
+}
+
+.price-list_title {
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: 300;
+	margin: 59px 0 31px;
+}
+
+.price-list_table {
+	width: 100%; /* Таблица будет адаптироваться по ширине контейнера */
+	max-width: 960px; /* Ограничиваем максимальную ширину таблицы */
+	margin: 0 0 67px;
+	border-collapse: collapse;
+}
+
+/* Категория */
+
+.price-list_table th.table_category-name {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #333;
+	text-align: center;
+	padding: 16px 0;
+	border-bottom: 2px solid #d9d9d9; /* Разделительная линия */
+}
+
+.price-list_table th {
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: left;
+	padding-right: 8px;
+	height: 64px;
+}
+
+.table_header-row {
+	padding: 0;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	height: 64px;
+	border-bottom: 1px solid #808080;
+	text-align: right;
+	min-width: 90px;
+}
+
+.price-list_table td {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #7b7b7b;
+	text-align: right;
+	height: 64px;
+}
+
+/* Table body */
+
+.table_row {
+	padding: 16px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.07) !important;
+}
+
+/* Mobile verssion */
+
+@media (max-width: 1000px) {
+	.price-list_warp {
+		padding: 0 20px !important;
+	}
+
+	.price-list_title {
+		font-size: 34px;
+	}
+	.price-list_table {
+		max-width: 94vw;
+	}
+
+	.price-list_table th,
+	.price-list_table td {
+		padding: 16px 0;
+		height: auto;
+		font-size: 14px;
+	}
+
+	.table_header-row th {
+		font-size: 12px !important;
+	}
+}
+
+@media (max-width: 700px) {
+	.price-list_title {
+		font-size: 28px;
+		margin: 40px 0 20px;
+	}
+	.price-list_table {
+		margin-bottom: 30px;
+	}
+	.price-list_table th,
+	.price-list_table td {
+		font-size: 12px;
+	}
+}
