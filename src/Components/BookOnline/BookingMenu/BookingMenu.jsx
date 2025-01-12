@@ -18,7 +18,20 @@ const BookingMenu = ({ isOpen, togglePopup }) => {
 		}
 	}, [isOpen])
 
-	
+	// Обработчик события popstate для закрытия меню при нажатии кнопки "назад"
+	useEffect(() => {
+		const handlePopState = event => {
+			if (event.state && event.state.iframeOpen) {
+				togglePopup() // Закрываем меню
+			}
+		}
+
+		window.addEventListener('popstate', handlePopState)
+
+		return () => {
+			window.removeEventListener('popstate', handlePopState)
+		}
+	}, [togglePopup])
 
 	return (
 		<div
