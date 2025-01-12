@@ -76,3 +76,9 @@
 	position: relative; /* Обеспечивает, что iframe находится ниже кнопки */
 	z-index: 1; /* iframe не перекрывает кнопку */
 }
+
+@media (max-width: 1000px) {
+	.booking-menu-content {
+		width: 100%;
+	}
+}
