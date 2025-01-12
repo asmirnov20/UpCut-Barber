@@ -18,28 +18,7 @@ const BookingMenu = ({ isOpen, togglePopup }) => {
 		}
 	}, [isOpen])
 
-	// Обработчик для кнопки "Назад"
-	useEffect(() => {
-		// Если меню открывается, добавляем состояние в историю
-		if (isOpen) {
-			window.history.pushState({ menuOpen: true }, '', '')
-		}
-
-		// Слушаем событие popstate
-		const handlePopState = event => {
-			// Если пользователь нажал "Назад" и меню было открыто, закрываем его
-			if (isOpen && (!event.state || !event.state.menuOpen)) {
-				togglePopup()
-			}
-		}
-
-		window.addEventListener('popstate', handlePopState)
-
-		// Убираем обработчик при размонтировании
-		return () => {
-			window.removeEventListener('popstate', handlePopState)
-		}
-	}, [isOpen, togglePopup])
+	
 
 	return (
 		<div
