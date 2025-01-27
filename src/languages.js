@@ -66,30 +66,30 @@ export const aboutText = {
 	SK: {
 		title: 'O NÁS',
 		text1:
-			'Ahoj! Som Jevhenij a vitám vás v UpCut – mieste, kde sa majstrovstvo stretáva s pohodlím! Tento barbershop som založil v srdci Košíc s 9-ročnými skúsenosťami, vášňou pre svoje remeslo a túžbou spraviť z každej vašej návštevy výnimočný zážitok.',
+			'Vitáme vás v UpCut – mieste, kde sa majstrovstvo stretáva s pohodlím! Tento barbershop sme založili v srdci Košíc s 9-ročnými skúsenosťami, vášňou pre svoje remeslo a túžbou spraviť z každej vašej návštevy výnimočný zážitok.',
 		text2:
 			'V UpCut kombinujeme klasické techniky s modernými trendmi, takže budete vždy vyzerať skvelo. Naším cieľom nie je len perfektný výsledok, ale aj atmosféra, do ktorej sa budete radi vracať. Zastavte sa a presvedčte sa sami, že UpCut nie je len barbershop, je to miesto, kde sa začína váš nový štýl!',
 	},
 	EN: {
 		title: 'ABOUT US',
 		text1:
-			'Hello! I am Jevhenij, and welcome to UpCut – a place where mastery meets comfort! I founded this barbershop in the heart of Košice with 9 years of experience, a passion for my craft, and a desire to make every visit a unique experience.',
+			'Welcome to UpCut – a place where mastery meets comfort! We established this barbershop in the heart of Košice with 9 years of experience, a passion for our craft, and a desire to make every visit an exceptional experience.',
 		text2:
-			'At UpCut, we combine classic techniques with modern trends, so you’ll always look great. Our goal is not only a perfect result but also an atmosphere you’ll love coming back to. Stop by and see for yourself that UpCut is not just a barbershop – it’s the place where your new style begins!',
+			'At UpCut, we combine classic techniques with modern trends, so you always look your best. Our goal is not only to achieve perfect results but also to create an atmosphere you’ll love to return to. Stop by and see for yourself that UpCut is not just a barbershop, it’s where your new style begins!',
 	},
 	RU: {
 		title: 'О НАС',
 		text1:
-			'Привет! Я Евгений, и добро пожаловать в UpCut – место, где мастерство встречается с комфортом! Я открыл этот барбершоп в самом сердце Кошице, опираясь на 9-летний опыт, страсть к своему делу и желание сделать каждое ваше посещение уникальным опытом.',
+			'Приветствуем вас в UpCut – месте, где мастерство встречается с комфортом! Мы открыли этот барбершоп в сердце Кошице, имея 9 лет опыта, страсть к своему делу и стремление сделать каждое ваше посещение особенным.',
 		text2:
-			'В UpCut мы сочетаем классические техники с современными трендами, чтобы вы всегда выглядели великолепно. Наша цель – не только идеальный результат, но и атмосфера, в которую вы захотите возвращаться. Загляните к нам и убедитесь сами, что UpCut – это не просто барбершоп, это место, где начинается ваш новый стиль!',
+			'В UpCut мы объединяем классические техники с современными трендами, чтобы вы всегда выглядели превосходно. Наша цель – не только идеальный результат, но и атмосфера, в которую хочется возвращаться. Загляните к нам и убедитесь сами: UpCut – это не просто барбершоп, это место, где начинается ваш новый стиль!',
 	},
 	UA: {
 		title: 'ПРО НАС',
 		text1:
-			'Привіт! Я Євгеній, і ласкаво просимо до UpCut – місця, де майстерність зустрічається з комфортом! Я відкрив цей барбершоп у самому серці Кошице, маючи 9 років досвіду, пристрасть до своєї справи та бажання зробити кожен ваш візит унікальним досвідом.',
+			'Ласкаво просимо до UpCut – місця, де майстерність поєднується з комфортом! Ми заснували цей барбершоп у самому серці Кошиць, маючи 9-річний досвід, пристрасть до своєї справи та бажання зробити кожне ваше відвідування винятковим.',
 		text2:
-			'В UpCut ми поєднуємо класичні техніки з сучасними трендами, щоб ви завжди виглядали чудово. Наша мета – не лише ідеальний результат, а й атмосфера, до якої вам захочеться повертатися. Завітайте до нас і переконайтеся самі, що UpCut – це не просто барбершоп, це місце, де починається ваш новий стиль!',
+			'У UpCut ми поєднуємо класичні техніки з сучасними трендами, щоб ви завжди виглядали бездоганно. Наша мета – не лише ідеальний результат, а й атмосфера, куди хочеться повертатися. Завітайте до нас і переконайтесь самі: UpCut – це не просто барбершоп, це місце, де починається ваш новий стиль!',
 	},
 }
 
@@ -238,11 +238,11 @@ export const teamHeading = {
 
 export const barberInfo = {
 	SK: {
-		Jevhenij: { firstName: 'Jevhenij', position: 'Top Barber' },
+		Jevhenij: { firstName: 'Yevhenii', position: 'Top Barber' },
 		Mima: { firstName: 'Mima', position: 'Barber' },
 	},
 	EN: {
-		Jevhenij: { firstName: 'Jevhenij', position: 'Top Barber' },
+		Jevhenij: { firstName: 'Yevhenii', position: 'Top Barber' },
 		Mima: { firstName: 'Mima', position: 'Barber' },
 	},
 	RU: {
@@ -292,15 +292,15 @@ export const contactsInfo = {
 		items: {
 			address: {
 				title: 'Adresa',
-				value: 'Poštová 1/463, 040 01 Košice',
+				value: 'Staré Mesto 463 (Poštová ) 040 01 Košice',
 			},
 			phone: {
 				title: 'Telefón',
-				value: '421 949 841 161',
+				value: '+421 949 821 157',
 			},
 			email: {
 				title: 'E-mail',
-				value: 'Diekeuferie@proton.me',
+				value: 'upcut.plan.b@gmail.com',
 			},
 			workingHours: {
 				title: 'Pracovné hodiny',
@@ -313,15 +313,15 @@ export const contactsInfo = {
 		items: {
 			address: {
 				title: 'Address',
-				value: 'Poštová 1/463, 040 01 Košice',
+				value: 'Staré Mesto 463 (Poštová ) 040 01 Košice',
 			},
 			phone: {
 				title: 'Phone',
-				value: '421 949 841 161',
+				value: '+421 949 821 157',
 			},
 			email: {
 				title: 'E-mail',
-				value: 'Diekeuferie@proton.me',
+				value: 'upcut.plan.b@gmail.com',
 			},
 			workingHours: {
 				title: 'Working hours',
@@ -334,15 +334,15 @@ export const contactsInfo = {
 		items: {
 			address: {
 				title: 'Адрес',
-				value: 'Poštová 1/463, 040 01 Košice',
+				value: 'Staré Mesto 463 (Poštová ) 040 01 Кошице',
 			},
 			phone: {
 				title: 'Телефон',
-				value: '421 949 841 161',
+				value: '+421 949 821 157',
 			},
 			email: {
 				title: 'E-mail',
-				value: 'Diekeuferie@proton.me',
+				value: 'upcut.plan.b@gmail.com',
 			},
 			workingHours: {
 				title: 'Время работы',
@@ -355,15 +355,15 @@ export const contactsInfo = {
 		items: {
 			address: {
 				title: 'Адреса',
-				value: 'Poštová 1/463, 040 01 Košice',
+				value: 'Staré Mesto 463 (Poštová ) 040 01 Кошице',
 			},
 			phone: {
 				title: 'Телефон',
-				value: '421 949 841 161',
+				value: '+421 949 821 157',
 			},
 			email: {
 				title: 'E-mail',
-				value: 'Diekeuferie@proton.me',
+				value: 'upcut.plan.b@gmail.com',
 			},
 			workingHours: {
 				title: 'Години роботи',

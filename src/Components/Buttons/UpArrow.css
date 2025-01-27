@@ -12,12 +12,6 @@
 
 @media (max-width: 1000px) {
 	.map-and-footer--logo_arrow {
-		left: 10px;
-	}
-}
-
-@media (max-width: 700px) {
-	.map-and-footer--logo_arrow {
 		display: none;
 	}
 }

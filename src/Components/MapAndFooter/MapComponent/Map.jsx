@@ -10,13 +10,12 @@ const Map = () => {
 		const map = new mapboxgl.Map({
 			container: 'map', // ID контейнера
 			style: 'mapbox://styles/mitchellsbestie22/cm42rebls00ya01sd97b48w2y', // Правильный стиль
-			center: [21.2511863, 48.7221666],
+			center: [21.255676, 48.723105],
 			zoom: 14,
 		})
-
 		// Добавляем маркер
 		new mapboxgl.Marker({ color: 'red' })
-			.setLngLat([21.2511863, 48.7221666])
+			.setLngLat([21.255676, 48.723105])
 			.addTo(map)
 
 		return () => map.remove() // Очистка карты при удалении компонента
