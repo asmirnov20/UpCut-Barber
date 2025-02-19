@@ -49,13 +49,12 @@
 
 .contacts-item_content:hover {
 	background-color: #e16e3d;
-	cursor: pointer;
 	color: white;
 }
 
 /* Mobile */
 
-@media (max-width: 1050px) {
+@media (max-width: 1270px) {
 	.contacts-title {
 		font-size: 34px;
 		margin-bottom: 32px;

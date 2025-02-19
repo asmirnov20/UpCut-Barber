@@ -66,33 +66,32 @@ export const aboutText = {
 	SK: {
 		title: 'O NÁS',
 		text1:
-			'Vitáme vás v UpCut – mieste, kde sa majstrovstvo stretáva s pohodlím! Tento barbershop sme založili v srdci Košíc s 9-ročnými skúsenosťami, vášňou pre svoje remeslo a túžbou spraviť z každej vašej návštevy výnimočný zážitok.',
+			'Náš tím vás víta v barbershope UpCut s priateľským a profesionálnym prístupom, na mieste kde berieme svoje povolanie ako vášeň.',
 		text2:
-			'V UpCut kombinujeme klasické techniky s modernými trendmi, takže budete vždy vyzerať skvelo. Naším cieľom nie je len perfektný výsledok, ale aj atmosféra, do ktorej sa budete radi vracať. Zastavte sa a presvedčte sa sami, že UpCut nie je len barbershop, je to miesto, kde sa začína váš nový štýl!',
+			'Sme presvedčení, že skvelý účes nie je možný bez skvelého servisu. Náš tím kombinuje klasické techniky s najnovšími trendmi, aby váš strih alebo fúzy boli nielen dokonalé, ale aj nadčasové. Môžte sa spoľahnúť na poradenstvo pri výbere účesu, tipy pre starostlivosť a úpravu, a ďalšie služby, vďaka ktorým pozdvihneme váš výzor na novú úroveň.',
 	},
 	EN: {
 		title: 'ABOUT US',
 		text1:
-			'Welcome to UpCut – a place where mastery meets comfort! We established this barbershop in the heart of Košice with 9 years of experience, a passion for our craft, and a desire to make every visit an exceptional experience.',
+			'Our team welcomes you to the UpCut barbershop with a friendly and professional approach, in a place where we take our profession as a passion.',
 		text2:
-			'At UpCut, we combine classic techniques with modern trends, so you always look your best. Our goal is not only to achieve perfect results but also to create an atmosphere you’ll love to return to. Stop by and see for yourself that UpCut is not just a barbershop, it’s where your new style begins!',
+			'We believe that a great haircut is not possible without great service. Our team combines classic techniques with the latest trends to ensure your haircut or beard is not only perfect but also timeless. You can rely on advice for choosing a hairstyle, grooming tips, and other services that will elevate your look to a new level.',
 	},
 	RU: {
 		title: 'О НАС',
 		text1:
-			'Приветствуем вас в UpCut – месте, где мастерство встречается с комфортом! Мы открыли этот барбершоп в сердце Кошице, имея 9 лет опыта, страсть к своему делу и стремление сделать каждое ваше посещение особенным.',
+			'Наша команда приветствует вас в барбершопе UpCut с дружелюбным и профессиональным подходом, в месте, где мы воспринимаем свою профессию как призвание.',
 		text2:
-			'В UpCut мы объединяем классические техники с современными трендами, чтобы вы всегда выглядели превосходно. Наша цель – не только идеальный результат, но и атмосфера, в которую хочется возвращаться. Загляните к нам и убедитесь сами: UpCut – это не просто барбершоп, это место, где начинается ваш новый стиль!',
+			'Мы уверены, что отличная стрижка невозможна без отличного сервиса. Наша команда сочетает классические техники с последними трендами, чтобы ваша стрижка или борода были не только идеальными, но и вне времени. Вы можете рассчитывать на консультации по выбору прически, советы по уходу и другие услуги, которые выведут ваш образ на новый уровень.',
 	},
 	UA: {
 		title: 'ПРО НАС',
 		text1:
-			'Ласкаво просимо до UpCut – місця, де майстерність поєднується з комфортом! Ми заснували цей барбершоп у самому серці Кошиць, маючи 9-річний досвід, пристрасть до своєї справи та бажання зробити кожне ваше відвідування винятковим.',
+			'Наша команда вітає вас у барбершопі UpCut із дружнім та професійним підходом, у місці, де ми сприймаємо свою професію як покликання.',
 		text2:
-			'У UpCut ми поєднуємо класичні техніки з сучасними трендами, щоб ви завжди виглядали бездоганно. Наша мета – не лише ідеальний результат, а й атмосфера, куди хочеться повертатися. Завітайте до нас і переконайтесь самі: UpCut – це не просто барбершоп, це місце, де починається ваш новий стиль!',
+			'Ми переконані, що чудова стрижка неможлива без чудового сервісу. Наша команда поєднує класичні техніки з останніми трендами, щоб ваша стрижка або борода були не лише ідеальними, а й позачасовими. Ви можете розраховувати на консультації щодо вибору зачіски, поради з догляду та інші послуги, які піднімуть ваш образ на новий рівень.',
 	},
 }
-
 export const servicesText = {
 	SK: 'Služby a ceny',
 	EN: 'Services and prices',
@@ -304,7 +303,7 @@ export const contactsInfo = {
 			},
 			workingHours: {
 				title: 'Pracovné hodiny',
-				value: 'Pn-So 09:00-17:00',
+				value: 'Pn-Pi 09:00-19:00, So-Ne: na objednávky',
 			},
 		},
 	},
@@ -325,7 +324,7 @@ export const contactsInfo = {
 			},
 			workingHours: {
 				title: 'Working hours',
-				value: 'Mon-Sun 09:00-17:00',
+				value: 'Mo-Fr 09:00-19:00, Sa-Su: by appointment',
 			},
 		},
 	},
@@ -346,7 +345,7 @@ export const contactsInfo = {
 			},
 			workingHours: {
 				title: 'Время работы',
-				value: 'Пн-Вс 09:00-17:00',
+				value: 'Пн-Пт 09:00-19:00, Сб-Вс: по записи',
 			},
 		},
 	},
@@ -367,7 +366,7 @@ export const contactsInfo = {
 			},
 			workingHours: {
 				title: 'Години роботи',
-				value: 'Пн-Нд 09:00-17:00',
+				value: 'Пн-Пт 09:00-19:00, Сб-Нд: за записом',
 			},
 		},
 	},
