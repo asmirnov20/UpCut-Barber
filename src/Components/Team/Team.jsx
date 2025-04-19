@@ -3,6 +3,7 @@ import { teamHeading } from '../../languages'
 import CommonButton from '../Buttons/CommonButton'
 import barberJevhenij from '../../assets/Barber__Yevhenii.jpg'
 import barberMima from '../../assets/Barber__Mima.jpg'
+import barberDominika from '../../assets/Dominika.jpg'
 import { barberInfo } from '../../languages'
 
 const Team = ({ currentLanguage }) => {
@@ -11,6 +12,8 @@ const Team = ({ currentLanguage }) => {
 	const infoYevhenii = barberInfo[currentLanguage].Jevhenij
 
 	const infoMima = barberInfo[currentLanguage].Mima
+
+	const infoDominika = barberInfo[currentLanguage].Dominika
 	return (
 		<div id='team' className='team-warp'>
 			<p className='team-title'>{title}</p>
@@ -43,6 +46,26 @@ const Team = ({ currentLanguage }) => {
 						<div className='barber-card_name'>
 							<div className='barber-card_firstname'>{infoMima.firstName}</div>
 							<div className='barber-card-postion'>{infoMima.position}</div>
+						</div>
+						<div>
+							<CommonButton
+								withArrow={false}
+								buttonType='barber'
+								currentLanguage={currentLanguage}
+							/>
+						</div>
+					</div>
+				</div>
+				<div className='barber-card'>
+					<div className='barber-card_img'>
+						<img src={barberDominika} alt='barber-Dominika' />
+					</div>
+					<div className='barber-card_info'>
+						<div className='barber-card_name'>
+							<div className='barber-card_firstname'>
+								{infoDominika.firstName}
+							</div>
+							<div className='barber-card-postion'>{infoDominika.position}</div>
 						</div>
 						<div>
 							<CommonButton

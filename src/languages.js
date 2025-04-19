@@ -239,18 +239,22 @@ export const barberInfo = {
 	SK: {
 		Jevhenij: { firstName: 'Yevhenii', position: 'Top Barber' },
 		Mima: { firstName: 'Mima', position: 'Barber' },
+		Dominika: { firstName: 'Dominika', position: 'Barber' },
 	},
 	EN: {
 		Jevhenij: { firstName: 'Yevhenii', position: 'Top Barber' },
 		Mima: { firstName: 'Mima', position: 'Barber' },
+		Dominika: { firstName: 'Dominika', position: 'Barber' },
 	},
 	RU: {
 		Jevhenij: { firstName: 'Евгений', position: 'Топ Барбер' },
 		Mima: { firstName: 'Мима', position: 'Барбер' },
+		Dominika: { firstName: 'Доминика', position: 'Барбер' },
 	},
 	UA: {
 		Jevhenij: { firstName: 'Євгеній', position: 'Топ Барбер' },
 		Mima: { firstName: 'Міма', position: 'Барбер' },
+		Dominika: { firstName: 'Домiнiка', position: 'Барбер' },
 	},
 }
 
