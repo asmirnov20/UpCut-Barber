@@ -2,7 +2,7 @@ export const navLanguages = {
 	SK: {
 		about: 'O NÁS',
 		services: 'SLUŽBY A CENY',
-		team: 'NÁŠ TÝM',
+		team: 'NÁŠ TÍM',
 		contact: 'KONTAKTY',
 	},
 	EN: {
