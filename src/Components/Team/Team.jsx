@@ -56,7 +56,7 @@ const Team = ({ currentLanguage }) => {
 						</div>
 					</div>
 				</div>
-				<div className='barber-card'>
+				{/* <div className='barber-card'>
 					<div className='barber-card_img'>
 						<img src={barberDominika} alt='barber-Dominika' />
 					</div>
@@ -75,7 +75,7 @@ const Team = ({ currentLanguage }) => {
 							/>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	)
