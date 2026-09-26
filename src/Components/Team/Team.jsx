@@ -3,7 +3,7 @@ import { teamHeading } from '../../languages'
 import CommonButton from '../Buttons/CommonButton'
 import barberJevhenij from '../../assets/Barber__Yevhenii.jpg'
 import barberMima from '../../assets/Barber__Mima.jpg'
-import barberDominika from '../../assets/Dominika.jpg'
+// import barberDominika from '../../assets/Dominika.jpg'
 import { barberInfo } from '../../languages'
 
 const Team = ({ currentLanguage }) => {
