@@ -3,6 +3,8 @@ import { teamHeading } from '../../languages'
 import CommonButton from '../Buttons/CommonButton'
 import barberJevhenij from '../../assets/Barber__Yevhenii.jpg'
 import barberMima from '../../assets/Barber__Mima.jpg'
+import barberSena from '../../assets/Barber__Sena.jpg'
+import barberDavid from '../../assets/Barber__David.jpg'
 // import barberDominika from '../../assets/Dominika.jpg'
 import { barberInfo } from '../../languages'
 
@@ -13,7 +15,11 @@ const Team = ({ currentLanguage }) => {
 
 	const infoMima = barberInfo[currentLanguage].Mima
 
-	const infoDominika = barberInfo[currentLanguage].Dominika
+	const infoSena = barberInfo[currentLanguage].Sena
+
+	const infoDavid = barberInfo[currentLanguage].David
+
+
 	return (
 		<div id='team' className='team-warp'>
 			<p className='team-title'>{title}</p>
@@ -56,29 +62,31 @@ const Team = ({ currentLanguage }) => {
 						</div>
 					</div>
 				</div>
-				{/* <div className='barber-card'>
+				<div className='barber-card'>
 					<div className='barber-card_img'>
-						<img src={barberDominika} alt='barber-Dominika' />
+						<img src={barberSena} alt='barber-Sena' />
 					</div>
 					<div className='barber-card_info'>
 						<div className='barber-card_name'>
-							<div className='barber-card_firstname'>
-								{infoDominika.firstName}
-							</div>
-							<div className='barber-card-postion'>{infoDominika.position}</div>
-						</div>
-						<div>
-							<CommonButton
-								withArrow={false}
-								buttonType='barber'
-								currentLanguage={currentLanguage}
-							/>
+							<div className='barber-card_firstname'>{infoSena.firstName}</div>
+							<div className='barber-card-postion'>{infoSena.position}</div>
 						</div>
 					</div>
-				</div> */}
+				</div>
+				<div className='barber-card'>
+					<div className='barber-card_img'>
+						<img src={barberDavid} alt='barber-David' />
+					</div>
+					<div className='barber-card_info'>
+						<div className='barber-card_name'>
+							<div className='barber-card_firstname'>{infoDavid.firstName}</div>
+							<div className='barber-card-postion'>{infoDavid.position}</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	)
 }
-
+// УЫАЛДофЦЩРУАЩФЦРГА
 export default Team
