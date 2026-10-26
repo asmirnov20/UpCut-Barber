@@ -103,38 +103,53 @@ export const pricesText = {
 	SK: {
 		categories: [
 			{
-				name: 'Brada',
+				name: 'Vlasy',
 				items: [
-					{ service: 'Dlhá brada (10 cm+) - 45 min', price: '20 €' },
-					{ service: 'Farbenie brady + úprava (60 min)', price: '25 €' },
-					{ service: 'Úprava brady (30 min)', price: '15 €' },
-				],
-			},
-			{
-				name: 'Doplnkové služby',
-				items: [
-					{
-						service: 'Depilácia voskom (uši, nos, obočie) - 15 min',
-						price: '5 €',
-					},
+					{ service: 'Classic strih (30 min)', price: '19 €' },
+					{ service: 'Dlhé vlasy (60 min)', price: '25 €' },
+					{ service: 'Classic strih + umytie hlavy (45 min)', price: '22 €' },
+					{ service: 'Classic strih + depilácia voskom (45 min)', price: '23 €' },
+					{ service: 'Kompletná úprava vlasov (umytie, vosk, styling) (60 min)', price: '27 €' },
 				],
 			},
 			{
 				name: 'Komplet',
 				items: [
-					{
-						service: 'Classic strih + úprava a farbenie brady (90 min)',
-						price: '35 €',
-					},
 					{ service: 'Classic strih + úprava brady (60 min)', price: '29 €' },
+					{ service: 'Classic strih + úprava brady + umytie hlavy (75 min)', price: '33 €' },
+					{ service: 'Classic strih + úprava brady + vosk (75 min)', price: '33 €' },
+					{ service: 'Dlhé vlasy + úprava brady (75 min)', price: '34 €' },
+					{ service: 'Classic strih + úprava a farbenie brady (90 min)', price: '35 €' },
+					{ service: 'Kompletný servis + farbenie brady (90 min)', price: '39 €' },
 				],
 			},
 			{
-				name: 'Vlasy',
+				name: 'Brada',
 				items: [
-					{ service: 'Classic strih (30 min)', price: '18 €' },
-					{ service: 'Classic strih + Umytie hlavy (45 min)', price: '22 €' },
-					{ service: 'Dlhé vlasy (60 min)', price: '24 €' },
+					{ service: 'Úprava brady (30 min)', price: '17 €' },
+					{ service: 'Dlhá brada (10 cm+) (45 min)', price: '20 €' },
+					{ service: 'Farbenie brady + úprava (60 min)', price: '25 €' },
+				],
+			},
+			{
+				name: 'Služby Junior Barber',
+				items: [
+					{ service: 'Strih Junior Barber (60 min)', price: '15 €' },
+					{ service: 'Komplet Junior Barber (75 min)', price: '25 €' },
+				],
+			},
+			{
+				name: 'Farbenie Vlasov (Total Blond)',
+				items: [
+					{ service: 'Farbenie Vlasov (Total Blond) do 2 cm (150 min)', price: '60 €' },
+					{ service: 'Farbenie Vlasov (Total Blond) Dlhé Vlasy 2 cm+ (180 min)', price: '70 €' },
+				],
+			},
+			{
+				name: 'Doplnkové služby',
+				items: [
+					{ service: 'Depilácia voskom (uši, nos, obočie) (15 min)', price: '5 €' },
+					{ service: 'Umytie hlavy (15 min)', price: '5 €' },
 				],
 			},
 		],
@@ -142,41 +157,53 @@ export const pricesText = {
 	EN: {
 		categories: [
 			{
-				name: 'Beard',
+				name: 'Hair',
 				items: [
-					{ service: 'Long beard (10 cm+) - 45 min', price: '20 €' },
-					{ service: 'Beard coloring + trimming (60 min)', price: '25 €' },
-					{ service: 'Beard trimming (30 min)', price: '15 €' },
-				],
-			},
-			{
-				name: 'Additional services',
-				items: [
-					{
-						service: 'Wax depilation (ears, nose, eyebrows) - 15 min',
-						price: '5 €',
-					},
+					{ service: 'Classic haircut (30 min)', price: '19 €' },
+					{ service: 'Long hair (60 min)', price: '25 €' },
+					{ service: 'Classic haircut + hair wash (45 min)', price: '22 €' },
+					{ service: 'Classic haircut + wax depilation (45 min)', price: '23 €' },
+					{ service: 'Complete hair treatment (wash, wax, styling) (60 min)', price: '27 €' },
 				],
 			},
 			{
 				name: 'Complete',
 				items: [
-					{
-						service: 'Classic haircut + beard trimming and coloring (90 min)',
-						price: '35 €',
-					},
-					{
-						service: 'Classic haircut + beard trimming (60 min)',
-						price: '29 €',
-					},
+					{ service: 'Classic haircut + beard trim (60 min)', price: '29 €' },
+					{ service: 'Classic haircut + beard trim + hair wash (75 min)', price: '33 €' },
+					{ service: 'Classic haircut + beard trim + wax (75 min)', price: '33 €' },
+					{ service: 'Long hair + beard trim (75 min)', price: '34 €' },
+					{ service: 'Classic haircut + beard trim and coloring (90 min)', price: '35 €' },
+					{ service: 'Complete service + beard coloring (90 min)', price: '39 €' },
 				],
 			},
 			{
-				name: 'Hair',
+				name: 'Beard',
 				items: [
-					{ service: 'Classic haircut (30 min)', price: '18 €' },
-					{ service: 'Classic haircut + Hair wash (45 min)', price: '22 €' },
-					{ service: 'Long hair (60 min)', price: '24 €' },
+					{ service: 'Beard trim (30 min)', price: '17 €' },
+					{ service: 'Long beard (10 cm+) (45 min)', price: '20 €' },
+					{ service: 'Beard coloring + trim (60 min)', price: '25 €' },
+				],
+			},
+			{
+				name: 'Junior Barber Services',
+				items: [
+					{ service: 'Junior Barber haircut (60 min)', price: '15 €' },
+					{ service: 'Junior Barber complete (75 min)', price: '25 €' },
+				],
+			},
+			{
+				name: 'Hair Coloring (Total Blond)',
+				items: [
+					{ service: 'Hair Coloring (Total Blond) up to 2 cm (150 min)', price: '60 €' },
+					{ service: 'Hair Coloring (Total Blond) Long Hair 2 cm+ (180 min)', price: '70 €' },
+				],
+			},
+			{
+				name: 'Additional services',
+				items: [
+					{ service: 'Wax depilation (ears, nose, eyebrows) (15 min)', price: '5 €' },
+					{ service: 'Hair wash (15 min)', price: '5 €' },
 				],
 			},
 		],
@@ -184,45 +211,53 @@ export const pricesText = {
 	RU: {
 		categories: [
 			{
-				name: 'Борода',
+				name: 'Волосы',
 				items: [
-					{ service: 'Длинная борода  (10 см+) - 45 мин', price: '20 €' },
-					{ service: 'Окрашивание бороды + уход (60 мин)', price: '25 €' },
-					{ service: 'Уход за бородой (30 мин)', price: '15 €' },
-				],
-			},
-			{
-				name: 'Дополнительные услуги',
-				items: [
-					{
-						service: 'Восковая депиляция (уши, нос, брови) - 15 мин',
-						price: '5 €',
-					},
+					{ service: 'Классическая стрижка (30 мин)', price: '19 €' },
+					{ service: 'Длинные волосы (60 мин)', price: '25 €' },
+					{ service: 'Классическая стрижка + мытьё головы (45 мин)', price: '22 €' },
+					{ service: 'Классическая стрижка + депиляция воском (45 мин)', price: '23 €' },
+					{ service: 'Полная укладка волос (мытьё, воск, стайлинг) (60 мин)', price: '27 €' },
 				],
 			},
 			{
 				name: 'Комплекс',
 				items: [
-					{
-						service:
-							'Классическая стрижка + уход и окрашивание бороды (90 мин)',
-						price: '35 €',
-					},
-					{
-						service: 'Классическая стрижка + уход за бородой (60 мин)',
-						price: '29 €',
-					},
+					{ service: 'Классическая стрижка + уход за бородой (60 мин)', price: '29 €' },
+					{ service: 'Классическая стрижка + уход за бородой + мытьё головы (75 мин)', price: '33 €' },
+					{ service: 'Классическая стрижка + уход за бородой + воск (75 мин)', price: '33 €' },
+					{ service: 'Длинные волосы + уход за бородой (75 мин)', price: '34 €' },
+					{ service: 'Классическая стрижка + уход и окрашивание бороды (90 мин)', price: '35 €' },
+					{ service: 'Полный сервис + окрашивание бороды (90 мин)', price: '39 €' },
 				],
 			},
 			{
-				name: 'Волосы',
+				name: 'Борода',
 				items: [
-					{ service: 'Классическая стрижка (30 мин)', price: '18 €' },
-					{
-						service: 'Классическая стрижка + Мытье головы (45 мин)',
-						price: '22 €',
-					},
-					{ service: 'Длинные волосы (60 мин)', price: '24 €' },
+					{ service: 'Уход за бородой (30 мин)', price: '17 €' },
+					{ service: 'Длинная борода (10 см+) (45 мин)', price: '20 €' },
+					{ service: 'Окрашивание бороды + уход (60 мин)', price: '25 €' },
+				],
+			},
+			{
+				name: 'Услуги Младшего Барбера',
+				items: [
+					{ service: 'Стрижка Младшего Барбера (60 мин)', price: '15 €' },
+					{ service: 'Комплекс Младшего Барбера (75 мин)', price: '25 €' },
+				],
+			},
+			{
+				name: 'Окрашивание волос (Total Blond)',
+				items: [
+					{ service: 'Окрашивание волос (Total Blond) до 2 см (150 мин)', price: '60 €' },
+					{ service: 'Окрашивание волос (Total Blond) длинные волосы 2 см+ (180 мин)', price: '70 €' },
+				],
+			},
+			{
+				name: 'Дополнительные услуги',
+				items: [
+					{ service: 'Восковая депиляция (уши, нос, брови) (15 мин)', price: '5 €' },
+					{ service: 'Мытьё головы (15 мин)', price: '5 €' },
 				],
 			},
 		],
@@ -230,49 +265,58 @@ export const pricesText = {
 	UA: {
 		categories: [
 			{
-				name: 'Борода',
+				name: 'Волосся',
 				items: [
-					{ service: 'Довга борода  (10 см+) - 45 хв', price: '20 €' },
-					{ service: 'Фарбування бороди + догляд (60 хв)', price: '25 €' },
-					{ service: 'Догляд за бородою (30 хв)', price: '15 €' },
-				],
-			},
-			{
-				name: 'Додаткові послуги',
-				items: [
-					{
-						service: 'Воскова депіляція (вуха, ніс, брови) - 15 хв',
-						price: '5 €',
-					},
+					{ service: 'Класична стрижка (30 хв)', price: '19 €' },
+					{ service: 'Довге волосся (60 хв)', price: '25 €' },
+					{ service: 'Класична стрижка + миття голови (45 хв)', price: '22 €' },
+					{ service: 'Класична стрижка + депіляція воском (45 хв)', price: '23 €' },
+					{ service: 'Повне оформлення волосся (миття, віск, стайлінг) (60 хв)', price: '27 €' },
 				],
 			},
 			{
 				name: 'Комплект',
 				items: [
-					{
-						service: 'Класична стрижка + догляд і фарбування бороди (90 хв)',
-						price: '35 €',
-					},
-					{
-						service: 'Класична стрижка + догляд за бородою (60 хв)',
-						price: '29 €',
-					},
+					{ service: 'Класична стрижка + догляд за бородою (60 хв)', price: '29 €' },
+					{ service: 'Класична стрижка + догляд за бородою + миття голови (75 хв)', price: '33 €' },
+					{ service: 'Класична стрижка + догляд за бородою + віск (75 хв)', price: '33 €' },
+					{ service: 'Довге волосся + догляд за бородою (75 хв)', price: '34 €' },
+					{ service: 'Класична стрижка + догляд і фарбування бороди (90 хв)', price: '35 €' },
+					{ service: 'Повний сервіс + фарбування бороди (90 хв)', price: '39 €' },
 				],
 			},
 			{
-				name: 'Волосся',
+				name: 'Борода',
 				items: [
-					{ service: 'Класична стрижка (30 хв)', price: '18 €' },
-					{
-						service: 'Класична стрижка + Миття голови (45 мин)',
-						price: '22 €',
-					},
-					{ service: 'Довге волосся (60 хв)', price: '24 €' },
+					{ service: 'Догляд за бородою (30 хв)', price: '17 €' },
+					{ service: 'Довга борода (10 см+) (45 хв)', price: '20 €' },
+					{ service: 'Фарбування бороди + догляд (60 хв)', price: '25 €' },
+				],
+			},
+			{
+				name: 'Послуги Молодшого Барбера',
+				items: [
+					{ service: 'Стрижка Молодшого Барбера (60 хв)', price: '15 €' },
+					{ service: 'Комплект Молодшого Барбера (75 хв)', price: '25 €' },
+				],
+			},
+			{
+				name: 'Фарбування волосся (Total Blond)',
+				items: [
+					{ service: 'Фарбування волосся (Total Blond) до 2 см (150 хв)', price: '60 €' },
+					{ service: 'Фарбування волосся (Total Blond) довге волосся 2 см+ (180 хв)', price: '70 €' },
+				],
+			},
+			{
+				name: 'Додаткові послуги',
+				items: [
+					{ service: 'Воскова депіляція (вуха, ніс, брови) (15 хв)', price: '5 €' },
+					{ service: 'Миття голови (15 хв)', price: '5 €' },
 				],
 			},
 		],
 	},
-}
+};
 
 export const teamHeading = {
 	SK: 'Náš Tím',
